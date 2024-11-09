@@ -140,7 +140,7 @@ section{
 }
 
 .title{
-    font-size: 5rem;
+    font-size: 4rem;
     color: var(--color4);
     text-transform: uppercase;
     text-align: center;
@@ -166,8 +166,19 @@ section{
 
 }
 
+.btn-info{
+    display: block; 
+    margin: 0 auto;
+    padding: 10px 20px;    
+    color: var(--text);
+    text-decoration: none;
+    border-radius: 5px;
+    width: fit-content; 
+}
+
 .about .row .content{
     padding: 2rem;
+    
 }
 
 .about .row .content h3{
@@ -180,4 +191,5 @@ section{
     padding: 1rem 0;
     line-height: 1.8;
     font-weight: 500;
+    width: 50vw;
 }
