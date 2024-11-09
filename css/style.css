@@ -198,7 +198,10 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
     gap: 1.5rem;
+    cursor: pointer;
 }
+
+
 
 .box img{
     
@@ -220,4 +223,8 @@ section{
 .box p{
     color: var(--text);
     font-size: 1.5rem;
+}
+
+.box:hover{
+    background-color: var(--color5);
 }
