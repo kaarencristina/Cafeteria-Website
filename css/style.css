@@ -193,3 +193,31 @@ section{
     font-weight: 500;
     width: 50vw;
 }
+
+#events .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+}
+
+.box img{
+    
+    height: 20rem;
+}
+
+.box-container .box{
+    text-align: center;
+    border: var(--border);
+    padding: 5rem;
+}
+
+.box-container .box h3{
+    color: var(--text);
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.box p{
+    color: var(--text);
+    font-size: 1.5rem;
+}
